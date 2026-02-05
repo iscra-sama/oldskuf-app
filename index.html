@@ -14,10 +14,31 @@
                 src: url("fonts/Google%20Sans/GoogleSans-Italic-VariableFont_GRAD,opsz,wght.ttf") format("truetype");
                 font-style: italic;
             }
+            @font-face {
+                font-family: SegoeUI;
+                src: url("fonts/SegoeUI/segoeuithis.ttf") format("truetype");
+            }
+            @font-face {
+                font-family: SegoeUI;
+                src: url("fonts/SegoeUI/segoeuithisi.ttf") format("truetype");
+                font-style: italic;
+            }
+            @font-face {
+                font-family: SegoeUI;
+                src: url("fonts/SegoeUI/segoeuithisb.ttf") format("truetype");
+                font-weight: bold;
+            }
+            @font-face {
+                font-family: SegoeUI;
+                src: url("fonts/SegoeUI/segoeuithisz.ttf") format("truetype");
+                font-weight: bold;
+                font-style: italic;
+            }
+                
             
             :root {
                 color-scheme: dark light;
-                font: 16px/1.5 "Google Sans", SegoeUI, "Segoe UI", Arial, sans-serif;
+                font: 16px/1.5 SegoeUI, "Google Sans", Arial, sans-serif;
             }
             main.articles {
                 display: flex;
@@ -3337,4 +3358,5 @@
     </body>
 
 </html>
+
 
